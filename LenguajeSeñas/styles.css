@@ -1,0 +1,166 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F1F7;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#main-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #915CF7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video-container {
+    margin-bottom: 20px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+#webcam {
+    width: 100%; 
+    max-width: 640px; 
+    max-height: 480px; 
+}
+
+#gesture-display {
+    margin-bottom: 20px;
+    background-color: #5C8AF7;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(253, 253, 253, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+button {
+    background-color: #5C8AF7;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #386eeb;
+}
+
+#add-example-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #5C8AF7; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-example-button:hover {
+    background-color: #386eeb; 
+  }
+  
+
+header {
+    background-color: #5E5CF7;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container {
+    flex: 1;
+    text-align: center;
+}
+
+#logo-container img {
+    height: 80px;
+}
+
+#title-container {
+    text-align: center;
+}
+
+#letter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#letter-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#letter-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los botones se envuelvan en múltiples líneas */
+    gap: 10px;
+}
+
+#letter-buttons button {
+    margin-bottom: 10px; /* Espaciado inferior entre los botones */
+}
+
+#letter-buttons button {
+    background-color: #5C8AF7;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#letter-buttons button:hover {
+    background-color: #386eeb;
+}
+
+#save-button {
+    background-color: #5C8AF7;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#save-button:hover {
+    background-color: #386eeb;
+}
+
+/* Añade este estilo para el botón de carga */
+#load-button-trigger {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #5C8AF7; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Ajusta según sea necesario */
+}
+
+#load-button-trigger:hover {
+    background-color: #386eeb; 
+}
